@@ -63,14 +63,13 @@ To better understand model behavior, we used **interpretability techniques**:
 
 - 🔥 **Grad-CAM**  
   - Highlights regions of the blood cell image that contributed most to the classification decision.  
-  - Helps verify that FDP-Net focuses on medically relevant features.  
+  - Helps verify that FDP-Net focuses on medically relevant features.
+ 
+    ![GradCam](assets/GradCam.png)
 
 - 🎨 **t-SNE Plots**  
   - Visualize high-dimensional feature embeddings in 2D space.  
-  - Show clear separation of different blood cell classes, indicating strong feature learning.  
-
-Example visualizations (from the paper):  
-
-- ✅ **Grad-CAM**: Infected cell regions are sharply highlighted, while non-infected samples show distributed attention.  
-- ✅ **t-SNE**: Well-separated clusters for ALL, PBC, and Raabin-WBC datasets.  
+  - Show clear separation of different blood cell classes, indicating strong feature learning.
+ 
+    ![TSNE-Plot](assets/tsneall.png)
 
