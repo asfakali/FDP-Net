@@ -36,4 +36,41 @@ The model achieves **state-of-the-art performance** while keeping parameters as 
 
 ---
 
+## 📦 Datasets  
+
+We trained and evaluated **FDP-Net** on three publicly available medical imaging datasets:  
+
+- 🧬 **[ALL Dataset (Acute Lymphoblastic Leukemia)](https://www.kaggle.com/datasets/mehradaria/leukemia)**  
+  - 3,256 microscopic blood smear images  
+  - Two classes: benign vs. malignant (Early Pre-B, Pre-B, Pro-B)  
+
+- 🩸 **[Peripheral Blood Cell (PBC) Dataset](https://www.kaggle.com/datasets/unclesamulus/blood-cells-image-dataset)**  
+  - 17,092 images of 8 different normal blood cell types  
+  - Captured using the CellaVision DM96 analyzer  
+
+- 🔬 **[Raabin-WBC Dataset](https://www.kaggle.com/datasets/masoudnickparvar/white-blood-cells-dataset)**  
+  - 14,514 images of leukocytes (lymphocytes, neutrophils, monocytes, eosinophils, basophils)  
+  - Collected from 73 peripheral blood films  
+
+Each dataset was split into **train / validation / test** sets as described in the paper.  
+Data preprocessing included resizing to `224x224`, normalization to `[0,1]`, and augmentations (rotation, flips).  
+
+---
+
+## 📈 Visualization  
+
+To better understand model behavior, we used **interpretability techniques**:  
+
+- 🔥 **Grad-CAM**  
+  - Highlights regions of the blood cell image that contributed most to the classification decision.  
+  - Helps verify that FDP-Net focuses on medically relevant features.  
+
+- 🎨 **t-SNE Plots**  
+  - Visualize high-dimensional feature embeddings in 2D space.  
+  - Show clear separation of different blood cell classes, indicating strong feature learning.  
+
+Example visualizations (from the paper):  
+
+- ✅ **Grad-CAM**: Infected cell regions are sharply highlighted, while non-infected samples show distributed attention.  
+- ✅ **t-SNE**: Well-separated clusters for ALL, PBC, and Raabin-WBC datasets.  
 
