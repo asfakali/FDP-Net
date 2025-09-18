@@ -73,3 +73,5 @@ To better understand model behavior, we used **interpretability techniques**:
  
     ![TSNE-Plot](assets/tsneall.png)
 
+  - a) t-SNE for the Raabin-WBC dataset for combined (phase and magnitude), (b) t-SNE for the PBC dataset for phase, (c) t-SNE for the ALL dataset for magnitude
+
