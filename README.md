@@ -19,7 +19,7 @@ Key contributions:
 - **Dynamic Pooling** – a learnable alternative to traditional max pooling.  
 - **Fourier Transform (FT) Guidance** with multi-task loss for faster convergence and reduced overfitting.
 
-![architecture](assets/bloodcellmodel.png)
+![architecture](assets/modelfdp.jpg)
 
 The model achieves **state-of-the-art performance** while keeping parameters as low as **0.349M**, making it suitable for resource-constrained clinical environments.  
 
