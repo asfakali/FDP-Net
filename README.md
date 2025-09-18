@@ -17,7 +17,9 @@ Key contributions:
 
 - **Depthwise and Pointwise Feature Fusion (DPFF) Block** for efficient feature extraction.  
 - **Dynamic Pooling** – a learnable alternative to traditional max pooling.  
-- **Fourier Transform (FT) Guidance** with multi-task loss for faster convergence and reduced overfitting.  
+- **Fourier Transform (FT) Guidance** with multi-task loss for faster convergence and reduced overfitting.
+
+![architecture](assets/bloodcellmodel.png)
 
 The model achieves **state-of-the-art performance** while keeping parameters as low as **0.349M**, making it suitable for resource-constrained clinical environments.  
 
