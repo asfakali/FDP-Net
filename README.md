@@ -90,5 +90,36 @@ If you use this work, please cite our paper:
   year={2025},
   publisher={Elsevier}
 }
+```
+---
+
+## 👩‍💻 Authors  
+
+- **Asfak Ali**  
+  Department of Electronics and Telecommunication Engineering, Jadavpur University, Kolkata  
+  📧 [asfakali.etce.rs@jadavpuruniversity.in](mailto:asfakali.etce.rs@jadavpuruniversity.in)  
+
+- **Rajdeep Pal**  
+  Department of Artificial Intelligence and Machine Learning, St. Thomas College of Engineering and Technology, Kolkata  
+  📧 [rajdeeppal167@gmail.com](mailto:rajdeeppal167@gmail.com)  
+
+- **Aishik Paul**  
+  Department of Electronics and Communication Engineering, Heritage Institute of Technology, Kolkata  
+  📧 [aishik.paul.ece26@heritageit.edu.in](mailto:aishik.paul.ece26@heritageit.edu.in)  
+
+- **Ram Sarkar**  
+  Department of Computer Science and Engineering, Jadavpur University, Kolkata  
+  📧 [ram.sarkar@jadavpuruniversity.in](mailto:ram.sarkar@jadavpuruniversity.in)  
+
+---
+
+## ⚠️ Disclaimer  
+
+This repository and code are intended for **research purposes only**.  
+They are **not a substitute for professional medical advice, diagnosis, or treatment**.  
+
+👉 FDP-Net should only be used as a **clinical decision support tool** under the supervision of qualified healthcare professionals.  
+The authors and contributors are **not responsible** for any misuse of this code in real-world clinical settings.  
+
 
 
