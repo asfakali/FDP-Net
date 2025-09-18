@@ -74,4 +74,21 @@ To better understand model behavior, we used **interpretability techniques**:
     ![TSNE-Plot](assets/tsneall.png)
 
   - a) t-SNE for the Raabin-WBC dataset for combined (phase and magnitude), (b) t-SNE for the PBC dataset for phase, (c) t-SNE for the ALL dataset for magnitude
+ 
+ ---
+
+ ## ✨ Citation  
+
+If you use this work, please cite our paper:  
+
+```bibtex
+@article{ali2025fdp,
+  title={FDP-Net: Fourier transform guided lightweight depthwise and pointwise dynamic pooling based neural network for medical image classification},
+  author={Ali, Asfak and Pal, Rajdeep and Paul, Aishik and Sarkar, Ram},
+  journal={Applied Soft Computing},
+  pages={113824},
+  year={2025},
+  publisher={Elsevier}
+}
+
 
